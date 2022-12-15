@@ -1,0 +1,378 @@
+*{
+margin: 0 ;
+padding: 0 ;
+font-family: sans-serif;
+
+}
+
+.a{
+
+	width: 100%;
+	height: 100vh;
+	background-size:cover ;
+	background-position: center;
+	background-image:linear-gradient( rgba(0,0,0,0.75) , rgba(0,0,0,0.75)) , url(bakroun.jpg);
+	
+
+}
+
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0 ;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar ul li{
+
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+
+}
+
+.navbar ul li a {
+
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar ul li ::after{
+
+content:'' ;
+height: 3px;
+width: 0%;
+background: #009688;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: 0.4s;
+}
+
+.navbar ul li:hover ::after{
+width: 100%;
+}
+
+.welcom{
+
+	width:100% ;
+	position: absolute;
+	text-align: center;
+	color:#fff ;
+	text-transform: uppercase;
+	top : 50%;
+
+}
+
+.welcom h{
+
+	font-size:50px;
+	margin-top: 80px;
+}
+
+.BW button{
+margin-top: 30PX;
+width: 200PX;
+padding: 15PX 0 ;
+text-align: center;
+margin: 20PX 10PX;
+border-radius: 25PX;
+font-weight: bold;
+border: 2PX solid #009688;
+background: transparent;
+color: #fff;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+
+}
+
+
+.k1{
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+		background-image: url(kitchen/1.jpg);
+		
+}
+.k2{
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+		background-image: url(kitchen/2.jpg);
+
+}
+.k3{
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+		background-image: url(kitchen/3.jpg);
+
+}
+
+.k4{
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+		background-image: url(kitchen/4.jpg);
+		
+}
+.k5{
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+		background-image: url(kitchen/5.jpg);
+		
+}
+.k6{
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+		background-image: url(kitchen/6.jpg);
+
+		
+}
+
+
+
+.D1 ,.D2,.D3 ,.D4 ,.D5,.D6{
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+		
+		
+}
+
+.D1{
+
+background-image: url(diningrom/1.jpg);
+
+}
+
+.D2{
+
+		background-image: url(diningrom/2.jpg);
+
+}
+
+.D3{
+
+		background-image: url(diningrom/3.jpg);
+
+}
+
+.D4{
+
+		background-image: url(diningrom/4.jpg);
+		
+}
+
+.D5{
+
+		background-image: url(diningrom/5.jpg);
+		
+}
+
+.D6{
+
+		background-image: url(diningrom/6.jpg);
+	
+}
+
+
+
+
+.B1 ,.B2 ,.B3  ,.B4 , .B5, .B6  {
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+	
+		
+}
+.B1{
+
+	background-image: url(BedRom/1.jpg);
+}
+
+.B2{
+		background-image: url(BedRom/2.jpg);
+
+}
+.B3{
+
+		background-image: url(BedRom/3.jpg);
+
+}
+
+.B4{
+
+		background-image: url(BedRom/4.jpg);
+		
+}
+
+.B5{
+
+		background-image: url(BedRom/5.jpg);
+		
+}
+
+.B6{
+
+		background-image: url(BedRom/6.jpg);
+		
+}
+
+
+
+.BK1 ,.BK2 ,.BK3  ,.BK4 , .BK5, .BK6  {
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+	
+		
+}
+.Bp1{
+
+	width: 10%;
+	position: absolute ;
+	margin: auto;
+	left: 20px;
+	display: flex;
+	margin-left: 60px;
+	
+
+}
+.price ,.BAY {
+	display: inline-block;
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin-left: 80px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-size: large;
+}
+
+
+
+.BK1{
+
+		background-image: url(bakry/1.jpg);
+		
+}
+
+.BK2{
+
+		background-image: url(bakry/2.jpg);
+
+}
+
+.BK3{
+
+		background-image: url(bakry/3.jpg);
+
+}
+
+.BK4{
+
+		background-image: url(bakry/4.jpg);
+		
+}
+
+.BK5{
+
+		background-image: url(bakry/5.jpg);
+		
+}
+
+.BK6{
+
+		background-image: url(bakry/6.jpg);
+		
+}
+
+
+
+
+
+
+.BT1 ,.BT2 ,.BT3  ,.BT4 , .BT5, .BT6  {
+margin: 20px 20px ;
+width: 40%;
+	height: 40vh;
+	background-size:cover ;
+	background-position: center;
+	
+		
+}
+
+
+
+.BT1{
+
+		background-image: url(bathroom/1.jpg);
+		
+}
+
+.BT2{
+
+		background-image: url(bathroom/2.jpg);
+
+}
+
+.BT3{
+
+		background-image: url(bathroom/3.jpg);
+
+}
+
+.BT4{
+
+		background-image: url(bathroom/4.jpg);
+		
+}
+.BT5{
+
+		background-image: url(bathroom/5.jpg);
+		
+}
+
+.BT6{
+
+		background-image: url(bathroom/6.jpg);
+
+	}
+
+ .chtr ,.bakr ,.bathr ,.bedr ,.dinr{
+
+		width: 100%;
+	height: 100vh;
+	background-size:cover ;
+	background-position: center;
+	background-image:linear-gradient( rgba(0,0,0,0.75) , rgba(0,0,0,0.75)) , url(back2.jpg);
+}
+
+
+

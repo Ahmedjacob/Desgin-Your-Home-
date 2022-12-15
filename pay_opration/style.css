@@ -1,0 +1,94 @@
+
+
+body{
+
+	width: 100%;
+	height: 100vh;
+	background-size:cover ;
+	background-position: center;
+	background-image:linear-gradient( rgba(0,0,0,0.75) , rgba(0,0,0,0.75)) , url(bakroun.jpg);
+	
+
+}
+
+.main{
+
+  width: 65%;
+  margin-top: 45px;
+  padding: 10px;
+  margin-bottom: 40px;
+  
+}
+
+.main1{
+
+  width: 48%;
+  margin-top: 45px;
+  padding: 10px;
+  padding-bottom: 50px;
+
+  
+}
+ 
+
+
+
+
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: large;
+  
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+
+  }
+
+ 
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  label{
+
+    color: aliceblue;
+  
+    font-size: large;
+  }
+
+
+ 
